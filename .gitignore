@@ -34,3 +34,9 @@ override.tf.json
 terraform.rc
 *.zip
 response.json
+
+# Ignore local .terraform directories
+.terraform/*
+
+# node_modules directories
+*node_modules
